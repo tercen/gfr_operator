@@ -1,0 +1,13 @@
+{
+  "name": "GFR",
+  "description": "Glomerular filtration rate estimate ",
+  "tags": ["simple statistics", "Pharma"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/gfr_operator"],
+  "properties": [
+  {
+}
+  ]
+}
+
+
