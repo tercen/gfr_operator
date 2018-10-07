@@ -103,10 +103,10 @@ if (ncol(ctx$cselect()) < 3) stop ("Require age and gender as 2nd and 3rd factor
 all_ages <- ctx$cselect()[[2]]
 all_genders <- ctx$cselect()[[3]]
 
-check_ages_within_range <- (all(unlist(lapply(all_ages, function(x) x %in% 1:100))))
+check_age_in_range <- (all(unlist(lapply(all_ages, function(x) x %in% 1:100))))
 check_gender_values <- (all(unlist(lapply(all_genders, function(x) x %in% c("Male", "Female")))))
 
-if (!check_ages_in_range)  stop ("ages required as the second factor on columns")
+if (!check_age_in_range)  stop ("ages required as the second factor on columns")
 if (!check_gender_values)  stop ("gender required as the third factor on columns")
 
 df <- ctx %>%
