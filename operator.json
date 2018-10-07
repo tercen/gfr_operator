@@ -4,7 +4,15 @@
   "tags": ["simple statistics", "Pharma"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/gfr_operator"],
-  "properties": []
+  "properties": [
+    {
+    "kind": "BooleanProperty",
+    "name": "as uM/l",
+    "defaultValue": true,
+    "description": "A logical variable indicating whether to treat the input measurments as micromoles per liter, default is true"
+  }
+  ]
+  
 }
 
 
