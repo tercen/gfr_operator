@@ -99,7 +99,7 @@ ctx = tercenCtx()
 if (nrow(unique(ctx$select(c('.axisIndex')))) != 2)
   stop("Two layers are required, the first with the creatinine value and the second with the cystatin")
 
-if (ncol(ctx$cselect() < 3)) stop ("Require age and gender as 2nd and 3rd factors on columns")
+if (ncol(ctx$cselect()) < 3) stop ("Require age and gender as 2nd and 3rd factors on columns")
 all_ages <- ctx$cselect()[[2]]
 all_genders <- ctx$cselect()[[3]]
 
