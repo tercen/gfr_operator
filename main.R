@@ -88,9 +88,9 @@ do.eGFR = function(df) {
     .ri = df$.ri[1],
     .ci = df$.ci[1],
     eGFR_0 = eGFR[[1]],
-    eGFR_1 = eGFR[[2]],
-    eGFR_2 = eGFR[[3]],
-    eGFR_3 = eGFR[[4]]
+    eGFR_crt = eGFR[[2]],
+    eGFR_cyt = eGFR[[3]],
+    eGFR_crt-cyt = eGFR[[4]]
   ))
 }
 
