@@ -1,10 +1,11 @@
 # eGFR operator
 
-#### Description
+##### Description
+
 `eGFR` operator calculates the glomerular filtration rate.
 
-
 ##### Usage
+
 Input projection|.
 ---|---
 `col` | 2nd factor age, 3rd factor gender
@@ -20,6 +21,7 @@ Output relations|.
 `eGFR_3`| numeric, equation 3 calculation of the GFR estimate (e.g. per cell)
 
 ##### Details
+
 `gfr` operator estimates Glomerular filtration rate (GFR) is the best overall index of kidney function.
 Four equations are used to calculate four eGFR values.
 
@@ -70,13 +72,7 @@ equation 3:
       eGFR <- ifelse (race=="Black",1.159 * eGFR, eGFR)
 ```
 
+##### References
 
-#### References
- 
 ref for equation 0: [https://www.kidney.org/professionals/kdoqi/gfr_calculator]
 
-
-##### See Also
-
-
-#### Examples
