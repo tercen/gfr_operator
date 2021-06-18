@@ -1,6 +1,6 @@
 {
   "name": "GFR",
-  "description": "Glomerular filtration rate estimate ",
+  "description": "Glomerular Filtration Rate: Calculates the GFR score for kidney filtration data.",
   "tags": ["pharmacokinetics", "Pharma"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/gfr_operator"],
